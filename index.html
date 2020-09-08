@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>We Are Content - Nuevo Pedido</title>
+
+  <!-- BOOTSTRAP CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- FONT AWESOME CSS -->
+  <link href="css/all.css" rel="stylesheet">
+  <!-- CUSTOM CSS -->
+  <link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light" id="sidebar-wrapper">
+      <div class="sidebar-heading text-center"><img src="img/icons/elipse.png"></div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light"><img src="img/icons/user.png" class="img-icon-sidebar">Tu Panel</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light"><img src="img/icons/bell.png" class="img-icon-sidebar">Notificaciones</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light active"><img src="img/icons/book-open.png" class="img-icon-sidebar">Pedidos</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light"><img src="img/icons/count.png" class="img-icon-sidebar">Cuenta</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light"><img src="img/icons/calculator-alt.png" class="img-icon-sidebar">Calculadora</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light"><img src="img/icons/wallet.png" class="img-icon-sidebar">Créditos</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light"><img src="img/icons/seo.png" class="img-icon-sidebar">Análisis SEO</a>        
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-content border-bottom">
+        <button class="btn btn-default shadow-none" id="menu-toggle"><img src="img/icons/chevron-right-7.png"></button>
+        <div class="credit">Créditos Disponibles : <span class="text-bold">50</span></div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse mt-m" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="img/icons/bell.png" class="img-drop-down"></a>
+            </li>            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle drop-down" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="user">
+                  <img src="img/icons/image-user.png">
+                </div>
+                <div class="user-name">Nombre Usuario</div>
+                <div class="user-type">Cliente</div>
+
+                <img src="img/icons/chevron-right.png" class="img-drop">
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#"><img src="img/icons/user.png" class="img-icon-dropdown">Perfil de Usuario</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"><img src="img/icons/exit.png" class="img-icon-dropdown">Salir</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container container-proyecto">
+        <div class="row">
+          <div class="col d-none d-sm-block"></div>
+          <div class="col-md-12 col-lg-8 mt-4">
+            <h4 class="mt-4 text-bold"><b>Creación de pedido</b></h4>
+            <form class="form-create-order">
+              <div class="row">
+                <div class="col-md-6 col-lg-5">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Formato</label>
+                    <select class="form-control form-control-lg   select-custom">
+                      <option value="Texto">Texto</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-5">                  
+                  <div class="form-group control-select">
+                    <label for="exampleInputPassword1">Tipo</label>
+                    <select class="form-control form-control-lg   select-custom">
+                      <option value="Texto especializado">Texto especializado</option>
+                      <option value="Texto">Texto</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-md-12 col-lg-10">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Categoria</label>
+                    <input type="text" autocomplete="off" class="form-control form-control-lg  " id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget.</small>
+                  </div>
+                </div>
+              </div> 
+
+              <div class="row mt-4">
+                <div class="col-md-12 col-lg-10">
+                  <label class="mt-4">Modalidad deseada para tu pedido</label>
+                </div>
+                <div class="col-md-12 col-lg-5 mt-4">
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="modalidad-1" name="modalidad" class="custom-control-input" checked="true">
+                    <label class="custom-control-label" for="modalidad-1">Concurso</label>
+                  </div>
+                  <small id="emailHelp" class="form-text text-muted mt-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</small>
+                </div>
+                <div class="col-md-12 col-lg-5 mt-4">
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="modalidad-2" name="modalidad" class="custom-control-input">
+                    <label class="custom-control-label" for="modalidad-2">Proveedor preferido</label>
+                  </div>
+                  <small id="emailHelp" class="form-text text-muted mt-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.</small>                  
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-md-12 col-lg-10 mt-4">
+                  <div class="form-group mt-4">
+                    <label for="exampleInputEmail1">Nombre de tu proyecto</label>
+                    <input type="text" autocomplete="off" class="form-control form-control-lg  " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Prueba">
+                  </div>
+                </div>
+              </div>               
+
+              <div class="row mt-4">
+                <div class="col-md-12 col-lg-10">
+                  <label class="mt-4">Propósito del texto</label>
+                </div>
+                <div class="col-md-12 col-lg-5 mt-4 mb-4">
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="proposito-1" name="proposito" class="custom-control-input" checked="true">
+                    <label class="custom-control-label" for="proposito-1">Contenido de Blog</label>
+                  </div>
+                  <small id="emailHelp" class="form-text text-muted mt-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</small>
+                </div>
+                <div class="col-md-12 col-lg-5 mt-4">
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="proposito-2" name="proposito" class="custom-control-input">
+                    <label class="custom-control-label" for="proposito-2">Guiones</label>
+                  </div>
+                  <small id="emailHelp" class="form-text text-muted mt-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</small>                  
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-md-12 col-lg-10 mt-4">
+                  <label>Extensión máxima de palabras</label>
+                </div>
+                <div class="col-md-12 col-lg-5">
+                  <select class="form-control form-control-lg  ">
+                    <option value="250 a 499">250 a 499</option>
+                    <option value="500 a 999">500 a 999</option>
+                  </select>
+                </div>
+                <div class="col-md-12 col-lg-10">
+                  <small id="emailHelp" class="form-text text-muted">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</small>
+                </div>
+              </div>
+
+              <div class="row"><br><br><br></div>
+
+              <div class="row mt-4 mb-4">
+                <div class="col-md-12 col-lg-10 mt-4">
+                  <label>Países a los que está dirigido</label>
+                </div>
+                <div class="col-md-12 col-lg-5">
+                  <select class="form-control form-control-lg  ">
+                    <option value="1">Colombia</option>
+                    <option value="2">Venezuela</option>
+                  </select>
+                  <small id="emailHelp" class="form-text text-muted">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</small>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-md-12 col-lg-10 mt-4">
+                  <br>
+                  <label>Idioma de tu pedido</label>
+                </div>
+                <div class="col-md-12 col-lg-5">
+                  <select class="form-control form-control-lg  ">
+                    <option value="Español">Español</option>
+                  </select>
+                  <small id="emailHelp" class="form-text text-muted">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</small>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-md-12 col-lg-10 mt-4"><br>
+                  <label>Optimización SEO</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 col-lg-2">
+                  <select class="form-control form-control-lg  ">
+                    <option value="Si">Si</option>
+                    <option value="No">No</option>
+                  </select>
+                </div>
+              </div>  
+              <div class="row">
+                <div class="col-md-12 col-lg-10">
+                  <small id="emailHelp" class="form-text text-muted">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.</small>
+                </div>
+              </div> 
+
+              <div class="row mt-4">
+                <div class="col-md-12 col-lg-10 mt-4">
+                  <div class="form-group mt-4">
+                    <label for="palabra_clave">Palabra clave principal</label>
+                    <input type="text" autocomplete="off" class="form-control form-control-lg  " id="palabra_clave" aria-describedby="emailHelp">
+                    <small class="form-text text-muted">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</small>
+                  </div>
+                </div>
+              </div> 
+
+              <div class="row mt-4">
+                <div class="col-md-12 col-lg-10 mt-4">
+                  <div class="form-group mt-4">
+                    <label for="palabra_clave">Palabra(s) semántica(s) o secundaria(s)</label>
+                    <input type="text" autocomplete="off" class="form-control form-control-lg  " id="palabra_clave" aria-describedby="emailHelp">
+                    <small class="form-text text-muted">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-md-12 col-lg-10 mt-4">
+                  <div class="form-group mt-4">
+                    <label for="palabra_clave">Descripción del pedido</label>
+                    <small class="form-text text-muted mb-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</small>
+                    <textarea class="form-control" rows="4"></textarea>
+                  </div>
+                  <div class="mt-4">
+                    <input type="file" style="display:none;" id="file" name="file"/>
+                    <button type="button" onclick="document.getElementById('file').click();" class="btn btn-outline-success btn-lg btn-outline-wac"><img src="img/icons/upload.png">Adjunta archivo</button>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <button type="button" class="btn btn-outline-success btn-lg btn-outline-wac"><img src="img/icons/microphone.png">Grabar instrucciones</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-md-12 col-lg-10 mt-4">
+                  <div class="form-group mt-4">
+                    <label for="publico">Público objetivo</label>
+                    <small class="form-text text-muted mb-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</small>
+                    <textarea class="form-control" rows="4"></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-md-12 col-lg-10">
+                  <label class="mt-4">Perspectiva del texto</label>
+                </div>
+                <div class="col-md-12 col-lg-10 mt-3">
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="perspectiva-1" name="perspectiva" class="custom-control-input">
+                    <label class="custom-control-label" for="perspectiva-1">Primera persona del singular (yo, mí, mi)</label>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-10 mt-3">
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="perspectiva-2" name="perspectiva" class="custom-control-input">
+                    <label class="custom-control-label" for="perspectiva-2">Primera persona del plural (nosotros, nuestro(s), nuestra(s))</label>
+                  </div>                 
+                </div>
+                <div class="col-md-12 col-lg-10 mt-3">
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="perspectiva-3" name="perspectiva" class="custom-control-input" checked="true">
+                    <label class="custom-control-label" for="perspectiva-3">Segunda persona, formal o informal</label>
+                  </div>                 
+                </div> 
+
+                <div class="col-md-12 col-lg-10 mt-3 ml-4">
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="opcion-1" name="opcion-perspectiva" class="custom-control-input">
+                    <label class="custom-control-label" for="opcion-1">Usted, su, sus</label>
+                  </div> 
+                </div>
+
+                <div class="col-md-12 col-lg-10 mt-3 ml-4">
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="opcion-2" name="opcion-perspectiva" class="custom-control-input" checked="true">
+                    <label class="custom-control-label" for="opcion-2">Tú, tu, tus</label>
+                  </div>                                   
+                </div>  
+
+                <div class="col-md-12 col-lg-10 mt-3">
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="perspectiva-4" name="perspectiva" class="custom-control-input">
+                    <label class="custom-control-label" for="perspectiva-4">Segunda persona, formal o informal</label>
+                  </div>                 
+                </div> 
+              </div>   
+
+              <div class="row mt-4">
+                <div class="col-md-12 col-lg-10 mt-4">
+                  <br>
+                  <label>Fecha de Entrega</label>
+                </div>
+                <div class="col-md-12 col-lg-5">
+                  <input type="date" name="fecha" class="form-control form-control-lg  " value="2020-09-08">
+                  <small id="emailHelp" class="form-text text-muted">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</small>
+                </div>
+              </div>
+              <button id="procesar_pedido" type="submit" class="btn btn-success d-none">Crear Pedido</button>
+            </form>
+          </div>
+          <div class="col d-none d-sm-block"></div>
+        </div>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+    <footer class="footer">
+      <div class="container-fluid container-footer">
+        <div>Proceso de creación de proyecto:</div>
+        <div class="text-verde text-bold">Valor proyecto: 50 créditos</div>
+        <div class="line"><img src="img/icons/line-button.png"></div>
+        <button type="button" class="btn btn-success btn-proceso">Crear pedido</button>
+      </div>
+    </footer>
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+      $("#menu-toggle").toggleClass("rota-img");
+    });
+
+  </script>
+
+</body>
+
+</html>
